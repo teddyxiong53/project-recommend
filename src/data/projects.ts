@@ -9,7 +9,8 @@ export const projects: Project[] = [
     category: 'Web Development',
     tags: ['React', 'API', 'TypeScript'],
     estimatedTime: '4-6 hours',
-    learningOutcomes: ['API integration', 'State management', 'Responsive design']
+    learningOutcomes: ['API integration', 'State management', 'Responsive design'],
+    url: 'https://github.com/topics/weather-app'
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export const projects: Project[] = [
     category: 'Web Development',
     tags: ['React', 'TypeScript', 'LocalStorage'],
     estimatedTime: '8-10 hours',
-    learningOutcomes: ['Drag & drop', 'Complex state', 'Data persistence']
+    learningOutcomes: ['Drag & drop', 'Complex state', 'Data persistence'],
+    url: 'https://github.com/topics/task-manager'
   },
   {
     id: 3,
@@ -29,7 +31,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['Node.js', 'Markdown', 'CLI'],
     estimatedTime: '10-12 hours',
-    learningOutcomes: ['File system operations', 'Markdown parsing', 'Template engines']
+    learningOutcomes: ['File system operations', 'Markdown parsing', 'Template engines'],
+    url: 'https://github.com/topics/static-site-generator'
   },
   {
     id: 4,
@@ -39,7 +42,8 @@ export const projects: Project[] = [
     category: 'Full Stack',
     tags: ['React', 'WebSocket', 'Node.js'],
     estimatedTime: '20-25 hours',
-    learningOutcomes: ['WebSocket protocol', 'Real-time communication', 'Authentication']
+    learningOutcomes: ['WebSocket protocol', 'Real-time communication', 'Authentication'],
+    url: 'https://github.com/topics/websocket'
   },
   {
     id: 5,
@@ -49,7 +53,8 @@ export const projects: Project[] = [
     category: 'Web Development',
     tags: ['HTML', 'CSS', 'JavaScript'],
     estimatedTime: '6-8 hours',
-    learningOutcomes: ['CSS animations', 'Responsive design', 'UI/UX principles']
+    learningOutcomes: ['CSS animations', 'Responsive design', 'UI/UX principles'],
+    url: 'https://github.com/topics/portfolio'
   },
   {
     id: 6,
@@ -59,7 +64,8 @@ export const projects: Project[] = [
     category: 'Web Development',
     tags: ['React', 'TypeScript', 'CSS'],
     estimatedTime: '12-15 hours',
-    learningOutcomes: ['E-commerce patterns', 'Image optimization', 'Shopping cart logic']
+    learningOutcomes: ['E-commerce patterns', 'Image optimization', 'Shopping cart logic'],
+    url: 'https://github.com/topics/ecommerce'
   },
   {
     id: 7,
@@ -69,7 +75,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['React', 'IndexedDB', 'Syntax Highlighting'],
     estimatedTime: '10-12 hours',
-    learningOutcomes: ['IndexedDB', 'Search algorithms', 'Code highlighting']
+    learningOutcomes: ['IndexedDB', 'Search algorithms', 'Code highlighting'],
+    url: 'https://github.com/topics/code-snippets'
   },
   {
     id: 8,
@@ -79,7 +86,8 @@ export const projects: Project[] = [
     category: 'Web Development',
     tags: ['React', 'API', 'LocalStorage'],
     estimatedTime: '6-8 hours',
-    learningOutcomes: ['API integration', 'Filtering', 'Local storage']
+    learningOutcomes: ['API integration', 'Filtering', 'Local storage'],
+    url: 'https://github.com/topics/recipe-app'
   },
   {
     id: 9,
@@ -89,7 +97,8 @@ export const projects: Project[] = [
     category: 'Data Science',
     tags: ['React', 'D3.js', 'TypeScript'],
     estimatedTime: '15-20 hours',
-    learningOutcomes: ['Data visualization', 'D3.js library', 'Complex calculations']
+    learningOutcomes: ['Data visualization', 'D3.js library', 'Complex calculations'],
+    url: 'https://github.com/topics/data-visualization'
   },
   {
     id: 10,
@@ -99,7 +108,8 @@ export const projects: Project[] = [
     category: 'Productivity',
     tags: ['React', 'TypeScript', 'Notifications'],
     estimatedTime: '4-5 hours',
-    learningOutcomes: ['Timer logic', 'Browser APIs', 'State management']
+    learningOutcomes: ['Timer logic', 'Browser APIs', 'State management'],
+    url: 'https://github.com/topics/pomodoro'
   },
   {
     id: 11,
@@ -109,7 +119,8 @@ export const projects: Project[] = [
     category: 'Full Stack',
     tags: ['Node.js', 'Database', 'API'],
     estimatedTime: '12-15 hours',
-    learningOutcomes: ['Backend development', 'Database design', 'Analytics']
+    learningOutcomes: ['Backend development', 'Database design', 'Analytics'],
+    url: 'https://github.com/topics/url-shortener'
   },
   {
     id: 12,
@@ -119,7 +130,8 @@ export const projects: Project[] = [
     category: 'Productivity',
     tags: ['React', 'Charts', 'LocalStorage'],
     estimatedTime: '10-12 hours',
-    learningOutcomes: ['Financial calculations', 'Data visualization', 'Export functionality']
+    learningOutcomes: ['Financial calculations', 'Data visualization', 'Export functionality'],
+    url: 'https://github.com/topics/expense-tracker'
   },
   {
     id: 13,
@@ -129,7 +141,8 @@ export const projects: Project[] = [
     category: 'Web Development',
     tags: ['React', 'Audio API', 'CSS'],
     estimatedTime: '12-14 hours',
-    learningOutcomes: ['Web Audio API', 'Media controls', 'Visualizations']
+    learningOutcomes: ['Web Audio API', 'Media controls', 'Visualizations'],
+    url: 'https://github.com/topics/music-player'
   },
   {
     id: 14,
@@ -139,7 +152,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['React', 'GitHub API', 'Charts'],
     estimatedTime: '6-8 hours',
-    learningOutcomes: ['GitHub API', 'Data processing', 'API rate limiting']
+    learningOutcomes: ['GitHub API', 'Data processing', 'API rate limiting'],
+    url: 'https://github.com/topics/github-api'
   },
   {
     id: 15,
@@ -149,7 +163,8 @@ export const projects: Project[] = [
     category: 'Education',
     tags: ['React', 'TypeScript', 'LocalStorage'],
     estimatedTime: '5-7 hours',
-    learningOutcomes: ['Quiz logic', 'Score calculation', 'State management']
+    learningOutcomes: ['Quiz logic', 'Score calculation', 'State management'],
+    url: 'https://github.com/topics/quiz-app'
   },
   {
     id: 16,
@@ -159,7 +174,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['Canvas API', 'React', 'Image Processing'],
     estimatedTime: '18-22 hours',
-    learningOutcomes: ['Canvas manipulation', 'Image processing', 'File handling']
+    learningOutcomes: ['Canvas manipulation', 'Image processing', 'File handling'],
+    url: 'https://github.com/topics/image-editor'
   },
   {
     id: 17,
@@ -169,7 +185,8 @@ export const projects: Project[] = [
     category: 'Productivity',
     tags: ['React', 'LocalStorage', 'Notifications'],
     estimatedTime: '8-10 hours',
-    learningOutcomes: ['Date calculations', 'Streak tracking', 'Data persistence']
+    learningOutcomes: ['Date calculations', 'Streak tracking', 'Data persistence'],
+    url: 'https://github.com/topics/habit-tracker'
   },
   {
     id: 18,
@@ -179,7 +196,8 @@ export const projects: Project[] = [
     category: 'Security',
     tags: ['JavaScript', 'Crypto API', 'React'],
     estimatedTime: '3-4 hours',
-    learningOutcomes: ['Cryptography basics', 'Random generation', 'Security best practices']
+    learningOutcomes: ['Cryptography basics', 'Random generation', 'Security best practices'],
+    url: 'https://github.com/topics/password-generator'
   },
   {
     id: 19,
@@ -189,7 +207,8 @@ export const projects: Project[] = [
     category: 'Full Stack',
     tags: ['WebRTC', 'React', 'Node.js'],
     estimatedTime: '25-30 hours',
-    learningOutcomes: ['WebRTC protocol', 'Media streams', 'Peer connections']
+    learningOutcomes: ['WebRTC protocol', 'Media streams', 'Peer connections'],
+    url: 'https://github.com/topics/webrtc'
   },
   {
     id: 20,
@@ -199,7 +218,8 @@ export const projects: Project[] = [
     category: 'Productivity',
     tags: ['React', 'Rich Text', 'Sync'],
     estimatedTime: '12-15 hours',
-    learningOutcomes: ['Rich text editing', 'Markdown parsing', 'Data synchronization']
+    learningOutcomes: ['Rich text editing', 'Markdown parsing', 'Data synchronization'],
+    url: 'https://github.com/topics/notes-app'
   },
   {
     id: 21,
@@ -209,7 +229,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['Canvas API', 'WebSocket', 'React'],
     estimatedTime: '20-24 hours',
-    learningOutcomes: ['Canvas drawing', 'Real-time sync', 'Tool implementation']
+    learningOutcomes: ['Canvas drawing', 'Real-time sync', 'Tool implementation'],
+    url: 'https://github.com/topics/drawing-app'
   },
   {
     id: 22,
@@ -219,7 +240,8 @@ export const projects: Project[] = [
     category: 'Finance',
     tags: ['React', 'API', 'Charts'],
     estimatedTime: '10-12 hours',
-    learningOutcomes: ['Financial APIs', 'Real-time data', 'Portfolio calculations']
+    learningOutcomes: ['Financial APIs', 'Real-time data', 'Portfolio calculations'],
+    url: 'https://github.com/topics/crypto-tracker'
   },
   {
     id: 23,
@@ -229,7 +251,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['React', 'Drag & Drop', 'Code Generation'],
     estimatedTime: '25-30 hours',
-    learningOutcomes: ['Visual builders', 'Code generation', 'Complex state']
+    learningOutcomes: ['Visual builders', 'Code generation', 'Complex state'],
+    url: 'https://github.com/topics/page-builder'
   },
   {
     id: 24,
@@ -239,7 +262,8 @@ export const projects: Project[] = [
     category: 'Productivity',
     tags: ['React', 'Date Management', 'TypeScript'],
     estimatedTime: '12-15 hours',
-    learningOutcomes: ['Date libraries', 'Calendar logic', 'Event management']
+    learningOutcomes: ['Date libraries', 'Calendar logic', 'Event management'],
+    url: 'https://github.com/topics/calendar'
   },
   {
     id: 25,
@@ -249,7 +273,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['React', 'RSS Parsing', 'IndexedDB'],
     estimatedTime: '10-12 hours',
-    learningOutcomes: ['RSS/XML parsing', 'Offline storage', 'Feed management']
+    learningOutcomes: ['RSS/XML parsing', 'Offline storage', 'Feed management'],
+    url: 'https://github.com/topics/rss-reader'
   },
   {
     id: 26,
@@ -259,7 +284,8 @@ export const projects: Project[] = [
     category: 'Full Stack',
     tags: ['React', 'OAuth', 'Multiple APIs'],
     estimatedTime: '30-35 hours',
-    learningOutcomes: ['OAuth integration', 'Multi-API management', 'Scheduling']
+    learningOutcomes: ['OAuth integration', 'Multi-API management', 'Scheduling'],
+    url: 'https://github.com/topics/social-media'
   },
   {
     id: 27,
@@ -269,7 +295,8 @@ export const projects: Project[] = [
     category: 'Education',
     tags: ['React', 'Algorithm', 'LocalStorage'],
     estimatedTime: '10-12 hours',
-    learningOutcomes: ['Spaced repetition', 'Learning algorithms', 'Progress tracking']
+    learningOutcomes: ['Spaced repetition', 'Learning algorithms', 'Progress tracking'],
+    url: 'https://github.com/topics/flashcards'
   },
   {
     id: 28,
@@ -279,7 +306,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['JavaScript', 'File API', 'Web Workers'],
     estimatedTime: '18-20 hours',
-    learningOutcomes: ['File format conversion', 'Web Workers', 'Binary data']
+    learningOutcomes: ['File format conversion', 'Web Workers', 'Binary data'],
+    url: 'https://github.com/topics/file-converter'
   },
   {
     id: 29,
@@ -289,7 +317,8 @@ export const projects: Project[] = [
     category: 'Design',
     tags: ['JavaScript', 'CSS', 'Color Theory'],
     estimatedTime: '4-6 hours',
-    learningOutcomes: ['Color algorithms', 'Accessibility', 'Design tools']
+    learningOutcomes: ['Color algorithms', 'Accessibility', 'Design tools'],
+    url: 'https://github.com/topics/color-palette'
   },
   {
     id: 30,
@@ -299,7 +328,8 @@ export const projects: Project[] = [
     category: 'Tools',
     tags: ['React', 'HTTP', 'TypeScript'],
     estimatedTime: '20-25 hours',
-    learningOutcomes: ['HTTP protocol', 'API testing', 'Request management']
+    learningOutcomes: ['HTTP protocol', 'API testing', 'Request management'],
+    url: 'https://github.com/topics/api-testing'
   }
 ];
 

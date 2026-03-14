@@ -7,6 +7,7 @@ export interface Project {
   tags: string[];
   estimatedTime: string;
   learningOutcomes: string[];
+  url?: string;
 }
 
 export interface FilterOptions {

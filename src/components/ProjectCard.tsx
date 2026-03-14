@@ -1,5 +1,5 @@
 import { Project } from '../types';
-import { Clock, TrendingUp } from 'lucide-react';
+import { Clock, TrendingUp, ExternalLink } from 'lucide-react';
 
 interface ProjectCardProps {
   project: Project;
@@ -13,10 +13,16 @@ export function ProjectCard({ project }: ProjectCardProps) {
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-100 hover:border-blue-200">
+    <a
+      href={project.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 border border-gray-100 hover:border-blue-200 group"
+    >
       <div className="flex items-start justify-between mb-3">
-        <h3 className="text-xl font-semibold text-gray-800 hover:text-blue-600 transition-colors">
+        <h3 className="text-xl font-semibold text-gray-800 group-hover:text-blue-600 transition-colors flex items-center gap-2">
           {project.name}
+          {project.url && <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />}
         </h3>
         <span
           className={`px-3 py-1 rounded-full text-xs font-medium border ${
@@ -64,6 +70,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
           ))}
         </ul>
       </div>
-    </div>
+    </a>
   );
 }
